@@ -18,7 +18,6 @@
   flex-direction: row;
   border: 1px solid red; /*удали потом*/
   margin-top: 46px;
-  /*margin-right: 48px;*/
 }
 
 .header__lang-list {
