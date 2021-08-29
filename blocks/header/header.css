@@ -1,8 +1,9 @@
 .header {
+  width: 92.5%;
   display: flex;
   justify-content: space-between;
   border: 1px solid goldenrod;
-  margin: 0 48px 0;
+  margin: 0 auto 56px;
 }
 
 .header__logo {
@@ -30,7 +31,7 @@
 }
 
 .header__lang {
-  color: #fff;
+  color: #fff; /* Можно ли для всей страницы задать цвет текста или это  будет не по БЭМ?*/
   text-decoration: none;
   font-size: 24px;
   line-height: 1.8;
