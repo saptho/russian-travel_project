@@ -4,12 +4,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 64px;
+  margin: 0 auto 92px;
 }
 
 .lead__title {
   max-width: 720px;
-  color: #fff;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.1;
@@ -19,10 +18,22 @@
 
 .lead__subtitle {
   max-width: 640px;
-  color: #fff;
   font-weight: 400;
   font-size: 30px;
   font-style: normal;
   line-height: 1.2;
   text-align: center;
 }
+
+.lead__image {
+  max-width: 100%;
+}
+
+.lead__caption {
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 1.4;
+  align-self: flex-start;
+  letter-spacing: 1.5px;
+  border: wheat 1px solid;
+  }

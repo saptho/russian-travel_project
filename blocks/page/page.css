@@ -3,4 +3,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
-  background: #2A2C2F;}
+  background: #2A2C2F;
+  color: #fff;
+}
