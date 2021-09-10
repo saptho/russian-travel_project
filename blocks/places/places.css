@@ -1,0 +1,69 @@
+.places {
+  width: 75%;
+  border: green solid 1px;
+  margin: 0 auto 92px;
+
+}
+
+.place {
+  width: 100%;
+  border: royalblue 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.place-row {
+  display: flex;
+  border: greenyellow 1px solid;
+}
+
+.place-row_title {
+  margin-bottom: 48px;
+}
+
+.place__title {
+  margin: 0;
+  width: 460px;
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: 900;
+  margin-right: 40px;
+}
+
+.place__website {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  justify-content: flex-end;
+}
+
+.url-heading {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.link {
+  font-family: Inter;
+  color: #fff;
+}
+
+.place__image {
+  max-width: 460px; /*так не сжимается картинка */
+}
+
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.place__paragraph:last-child {
+  margin-top: 26px;
+}
