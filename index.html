@@ -8,7 +8,7 @@
   </head>
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header page__header">
       <img class="header__logo" src="./images/__logo.svg" alt="Белый логотип Россия">
       <ul class="header__langs">
         <li class="header__lang-list"><a class="header__lang header__lang_link_ru" href="./index.html">Ru</a></li>
@@ -16,14 +16,14 @@
       </ul>
     </header>
     <main class="content">
-      <section class="lead">
+      <section class="lead content__section">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="./images/lead-train.jpg">
         <p class="lead__caption">Ваша полка - верхняя</p>
       </section>
 
-      <section class="intro">
+      <section class="intro content__section">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
           провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
@@ -41,7 +41,7 @@
         </ul>
       </section>
 
-      <section class="photo-grid">
+      <section class="photo-grid content__section">
         <img class="photo-grid__item" src="images/photo-grid-train.jpg">
         <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg">
         <img class="photo-grid__item" src="images/photo-grid-tuman.jpg">
@@ -56,7 +56,7 @@
         <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg">
       </section>
 
-      <section class="places">
+      <section class="places content__section">
         <div class="place">
           <div class= "place-row place-row_title">
           <h2 class="place__title">Куршская коса</h2>
@@ -89,7 +89,7 @@
            <h2 class="place__title">Кольский</h2>
           <div class="place__website">
           <span class="url-heading">url</span>
-          <a class="link" href="https://nat-geo.ru/">National Geographic</a>
+          <a class="link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
         </div>
         </div>
         <div class="place-row">
@@ -114,7 +114,7 @@
       <h2 class="place__title">Алтай</h2>
       <div class="place__website">
         <span class="url-heading">url</span>
-        <a class="link" href="https://www.facebook.com/altairegion22/">Facebook</a>
+        <a class="link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
       </div>
       </div>
       <div class="place-row">
@@ -183,13 +183,29 @@
 
       </section>
 
-      <section class="cover">
-        <h2 class="cover__title">,kf ,kf</h2>
+      <section class="cover content__section">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link"> <!-- Не уверена, что весь блок должен быть ссылкой-->
+          <div class="cover__background">
+            <div class="cover__overlay">
+              <h2 class="cover__title">До Байкала «на собаках»</h2>
+              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы
+            до Байкала на электричках.</p>
+          </div>
+        </a>
+
+        </div>
       </section>
 
     </main>
-    <footer class="footer">
-
+    <footer class="footer page__footer">
+      <ul class="footer__links">
+        <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+        <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+        <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+        <li class="footer__link-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+        <li class="footer__link-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+      </ul>
+      <p>© 2021. Света Пананто</p>
     </footer>
   </div>
 </body>

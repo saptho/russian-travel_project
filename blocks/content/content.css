@@ -1,0 +1,20 @@
+.content {
+  max-width: 100%;
+}
+/*
+.content__intro {
+  margin: 0 auto 92px;
+  border: 1px solid greenyellow;
+}
+
+.content__lead {
+  margin: 0 auto 92px;
+}
+
+.content__photo-grid {
+  margin: 0 auto 92px;
+}*/
+
+.content__section {
+  margin: 0 auto 92px;
+}

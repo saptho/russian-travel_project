@@ -3,12 +3,7 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid goldenrod;
-  margin: 0 auto 56px;
-}
-
-.header__logo {
-  margin-top: 28px;
-  /*margin-left: 48px;*/
+  padding-top: 28px;
 }
 
 .header__langs {
@@ -18,7 +13,7 @@
   display: flex;
   flex-direction: row;
   border: 1px solid red; /*удали потом*/
-  margin-top: 46px;
+  margin-top: 28px;
 }
 
 .header__lang-list {
@@ -27,17 +22,17 @@
 }
 
 .header__lang-list:first-child {
-  margin-right: 18px;
+  padding-right: 18px;
 }
 
 .header__lang {
-  color: #fff; /* Можно ли для всей страницы задать цвет текста или это  будет не по БЭМ?*/
+  color: #fff;
   text-decoration: none;
   font-size: 24px;
   line-height: 1.8;
   font-style: normal;
 }
 
-.header__lang_link_ru:active {
+.header__lang:visited {
   text-decoration: underline;
 }
