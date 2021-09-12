@@ -1,9 +1,9 @@
-.place-row {
+.place__row {
   display: flex;
 }
 
 @media screen and (max-width: 640px) {
-  .place-row  {
+  .place__row  {
     flex-direction: column;
   }
 }
