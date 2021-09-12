@@ -1,16 +1,20 @@
 .page {
-  max-width: 1280px;
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
   background: #2A2C2F;
   color: #fff;
-}
-
-.page__header {
-  margin: 0 auto 56px;
-}
-
-.page__footer {
+  max-width: 1280px;
+  min-width: 320px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
 }
