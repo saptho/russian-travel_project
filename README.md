@@ -9,6 +9,8 @@
 * адаптивная верстка: (flex и grid контейнеры, медиазапросы)
 * плавная трансформация элементов, реализованные при помощи CSS :sparkles:
 
+[Проект](https://saptho.github.io/russian-travel_project/index.html) на GitHub Pages.
+
 ### Технологии
 
 1. HTML
