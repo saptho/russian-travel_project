@@ -39,9 +39,8 @@
 @import url(./blocks/place/__image/place__image.css);
 @import url(./blocks/place/__paragraph/place__paragraph.css);
 @import url(./blocks/place/__row/place__row.css);
-
-@import url(./blocks/row/__title/row__title.css);
-@import url(./blocks/row/__image/row__image.css);
+@import url(./blocks/place/__row-title/place__row-title.css);
+@import url(./blocks/place/__row-image/place__row-image.css);
 
 @import url(./blocks/cover/cover.css);
 @import url(./blocks/cover/__background/cover__background.css);
