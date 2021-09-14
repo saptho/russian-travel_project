@@ -11,6 +11,12 @@
   transition: 1s;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    padding: 195px 0 195px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .cover__overlay {
     padding: 33px 0;

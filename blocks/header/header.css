@@ -4,3 +4,9 @@
   justify-content: space-between;
   border: 1px red solid;
 }
+
+@media screen and (max-width: 1024px){
+  .header {
+    max-width: 928px;
+  }
+}
