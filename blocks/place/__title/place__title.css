@@ -1,6 +1,6 @@
 .place__title {
   margin: 0;
-  max-width: 460px; /*прости, милый(-ая) ревьюер за такую фигню, я придумаю что-нибудь с выравниванием */
+  width: 460px;
   padding-right: 40px;
   font-size: 72px;
   line-height: 76px;

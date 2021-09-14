@@ -14,6 +14,7 @@
 @import url(./blocks/content/content.css);
 @import url(./blocks/content/__section/content__section.css);
 @import url(./blocks/content/__section/_middle-width/content__section_middle-width.css);
+@import url(./blocks/content/__lead/content__lead.css);
 
 @import url(./blocks/lead/lead.css);
 @import url(./blocks/lead/__title/lead__title.css);
