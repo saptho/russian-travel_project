@@ -1,5 +1,5 @@
 .place__row-image {
-  max-width: 460px; /*пока не дошло как сделать картинку растягивающейся*/
+  max-width: 460px;
   max-height: 460px;
 }
 
@@ -10,7 +10,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .place__row-image{
     max-width: 340px;
@@ -20,6 +19,15 @@
 
 @media screen and (max-width: 640px) {
   .place__row-image {
-    padding-bottom: 32px;
+    padding: 0 18px 32px;
+    max-width: 380px;
+    max-height: 380px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__row-image {
+    padding: 0 0 32px;
   }
 }

@@ -9,8 +9,8 @@
   font-weight: 400;
 }
 
-.place__paragraph:last-child {
-  margin-top: 26px;
+.place__paragraph:first-child {
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,9 +19,17 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    margin-left: 28px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .place__paragraph {
-    margin: 0 18px;
+    margin: 0 16px;
   }
 
   .place__paragraph:last-child {

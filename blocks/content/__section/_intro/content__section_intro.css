@@ -1,0 +1,11 @@
+@media screen and (width: 768px) {
+  .content__section_intro {
+    margin: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content__section_intro {
+      margin: 0 16px 64px;
+  }
+}

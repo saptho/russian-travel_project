@@ -13,7 +13,13 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    padding: 195px 0 195px;
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    padding: 115px 0;
   }
 }
 
