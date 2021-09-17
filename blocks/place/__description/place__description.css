@@ -1,27 +1,21 @@
-.place__website {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.place__description {
   width: calc((100% - 40px)/2);
-  margin-bottom: 48px;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__website {
+  .place__description {
     width: calc((100% - 32px)/2);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__website {
+  .place__description {
     width: calc((100% - 28px)/2);
   }
 }
 
 @media screen and (max-width: 640px) {
-  .place__website {
-    width: calc(100% - 32px);
-    margin: 0 16px 32px;
+  .place__description {
+    width: 100%;
   }
 }
-

@@ -1,0 +1,11 @@
+.place__image_point_karelia {
+    background: url('../../../../images/place-karelia.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 640px) {
+  .place__image_point_karelia {
+    padding-bottom: 100%;
+  }
+}

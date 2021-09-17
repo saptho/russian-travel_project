@@ -1,0 +1,11 @@
+.place__image_point_altay {
+    background: url('../../../../images/place-altai.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 640px) {
+  .place__image_point_altay {
+    padding-bottom: 100%;
+  }
+}

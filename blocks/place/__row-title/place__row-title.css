@@ -1,9 +1,0 @@
-.place__row-title {
-  margin-bottom: 48px;
-}
-
-@media screen and (max-width: 640px) {
-  .place__row-title{
-    margin: 0 0 32px 16px;
-  }
-}

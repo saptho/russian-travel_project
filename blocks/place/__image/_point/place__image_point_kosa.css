@@ -1,0 +1,11 @@
+.place__image_point_kosa {
+  background: url('../../../../images/place-kosa.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 640px) {
+  .place__image_point_kosa {
+    padding-bottom: 100%;
+  }
+}

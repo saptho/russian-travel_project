@@ -1,0 +1,10 @@
+.place__image_point_baikal {
+    background: url('../../../../images/place-winter-baikal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 640px) {
+  .place__image_point_baikal {
+    padding-bottom: 100%;
+  }
+}
