@@ -8,21 +8,22 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  z-index: 1;
+  /*z-index: 1;*/
 }
 
-.cover::before {
+.cover:before {
   content: '';
   display: block;
-  background-color: rgba(42, 44, 47, .3);
+  background-color: #2A2C2F;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  right: 0;
+  bottom: 0;
 }
 
-.cover:hover {
+.cover:hover:before {
   opacity: 0.8;
   transition: 1s;
 }
