@@ -1,11 +1,11 @@
 @media screen and (max-width: 768px) {
-  .content__section_photo-grid {
+  .content__section_position_photo-grid {
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .content__section_photo-grid {
+  .content__section_position_photo-grid {
     padding: 0 16px;
   }
 }
