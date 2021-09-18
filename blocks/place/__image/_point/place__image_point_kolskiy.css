@@ -4,7 +4,7 @@
     background-position: center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .place__image_point_kolskiy {
     padding-bottom: 100%;
   }
