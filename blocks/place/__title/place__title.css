@@ -1,6 +1,6 @@
 .place__title {
   margin: 0;
-  width: calc((100% - 40px)/2);
+  width: 460px;
   margin-bottom: 48px;
   font-size: 72px;
   line-height: 76px;

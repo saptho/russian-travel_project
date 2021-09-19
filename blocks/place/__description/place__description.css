@@ -1,16 +1,17 @@
 .place__description {
-  width: calc((100% - 40px)/2);
+  width: calc(100% - (460px + 40px));
+
 }
 
 @media screen and (max-width: 1024px) {
   .place__description {
-    width: calc((100% - 32px)/2);
+    width: calc(100% - (440px + 32px));
   }
 }
 
 @media screen and (max-width: 860px) {
   .place__description {
-    width: calc((100% - 28px)/2);
+    width: calc(100% - (340px + 28px));
   }
 }
 
