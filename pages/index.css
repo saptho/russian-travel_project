@@ -9,7 +9,6 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__langs/header__langs.css);
-@import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang/_active/header__lang_active.css);
 
