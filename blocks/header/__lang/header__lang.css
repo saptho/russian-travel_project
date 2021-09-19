@@ -6,10 +6,6 @@
   font-style: normal;
 }
 
-.header__lang:first-child {
-  padding-right: 18px;
-}
-
 .header__lang:hover {
   opacity: 0.8;
   transition: .5s;

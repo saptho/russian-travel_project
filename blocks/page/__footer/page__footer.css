@@ -9,3 +9,9 @@
     margin: 0 24px;
   }
 }
+
+@media screen and (max-width: 540px) {
+  .page__footer {
+    margin: 0 16px;
+  }
+}
